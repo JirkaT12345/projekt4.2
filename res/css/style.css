@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+*{
+    user-select: none;
+    font-family: 'Tilt Neon', sans-serif;
+}
+html,body{
+    background: radial-gradient(circle, rgba(82,81,84,1) 0%, rgba(0,0,0,1) 100%);
+    padding: 0;
+    margin: 0;
+    min-height:  100vh;
+}
+#point{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(139, 223, 14);
+    border: 3px solid green;
+    border-radius: 100%;
+    cursor: pointer;
+    filter: blur(1px);
+    transition: .2s ease;
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+#point:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 50px rgb(153, 255, 0);
+}
+#startgame{
+    color: white;
+    font-size: 42px;
+    border: none;
+    background-color: rgb(255, 0, 0);
+    border-radius: 40px;
+    padding: .2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    cursor: pointer;
+    transition: .2s ease;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+
+}
+
+#startgame:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 50px rgb(255, 0, 0);
+}
