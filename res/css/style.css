@@ -55,3 +55,7 @@ html,body{
     transform: scale(1.02);
     box-shadow: 0 0 50px rgb(255, 0, 0);
 }
+#timeInfo{
+    color: white;
+    
+}
